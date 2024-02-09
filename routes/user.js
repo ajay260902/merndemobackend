@@ -11,7 +11,5 @@ router.post('/login', loginUser);
 // Signup route
 router.post('/signup', signupUser);
 
-// Forgot password route
-router.post('/forgot-password', forgotPassword);
 
 module.exports = router;
